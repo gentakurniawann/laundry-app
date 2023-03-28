@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.register{
+    background: #4F60E1;
+    height: 1240px;
+}
+.form-register{
+    background: #ffffff;
+    margin-top: 96px;
+    border-radius: 16px;
+    height: 764px;
+}
+.form-register img{
+    margin-top: 16px;
+}
+.name{
+    padding-left: 16px;
+    margin-top: 24px;
+}
+.gender{
+    padding-right: 16px;
+    margin-top: 24px;
+}
+.phone{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 16px;
+}
+.address{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 16px;
+}
+.username{
+    padding-left: 16px;
+    margin-top: 16px;
+}
+.password{
+    padding-right: 16px;
+    margin-top: 16px;
+}
+.image{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 16px;
+}
+.btn-register{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 523px;
+    height: 40px;
+    background: linear-gradient(90deg, #272E67 0%, #4F60E1 31.25%, #ABB4F8 100%);
+    border-radius: 16px;
+}
+.btn-register:hover{
+    color: #272E67;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 2px solid #272E67;
+}

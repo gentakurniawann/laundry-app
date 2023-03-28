@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.dashboard{
+  background-color: #F4F7FE;
+  height: 100vh;
+}
+.content-header {
+  margin-bottom: 40px;
+}
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #272e67;
+  margin: 0;
+}
+.profile {
+  background-color: #272e67;
+  width: 165px;
+  height: 40px;
+  border-radius: 20px;
+}
+.profile img {
+  padding: 8px 8px 8px 16px
+  ;
+}
+.profile p {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+.mini-stat {
+  background-color: #4f60e1;
+  border-radius: 16px;
+  color: #ffffff;
+  height: 127px;
+  padding: 32px 16px;
+  gap: 8px;
+}
+.mini-stat .icon {
+  width: 64px;
+  height: 64px;
+  padding: 12px;
+  border-radius: 16px;
+  background-color: #abb4f8;
+}
+.mini-stat .text h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+.mini-stat .text h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1440px) {
+  .dashboard .container{
+    padding: 10px 8px 0px 78px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dashboard .container{
+    padding: 10px 18px 0px 98px;
+  }
+  .profile{
+    width: 40px;
+  }
+  .profile p{
+    display: none;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .dashboard .container{
+    padding: 10px 18px 0px 98px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  .profile{
+    width: 40px;
+  }
+  .profile p{
+    display: none;
+  }
+}
+

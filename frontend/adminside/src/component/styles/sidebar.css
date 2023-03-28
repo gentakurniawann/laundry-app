@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.sidebar {
+  background-color: #4f60e1;
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  transition: all 0.5s ease;
+}
+.header {
+  padding: 20px 16px 0 16px;
+  gap: 11px;
+}
+.header .bars {
+  cursor: pointer;
+}
+.sidebar-content {
+  margin-top: 40px;
+}
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  gap: 8px;
+  padding: 16px 0px 16px 20px;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+}
+.link:hover {
+  background-color: #abb4f8;
+  color: #272e67;
+  transition: all 0.5s ease;
+}
+.link:active {
+  background-color: #abb4f8;
+  color: #272e67;
+}
+.link .link_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.logout {
+  bottom: 0px;
+  position: fixed;
+  transition: all 0.5s ease;
+}
+.logout-button {
+  cursor: pointer;
+  padding: 16px 0px 16px 20px;
+  gap: 8px;
+  background-color: #abb4f8;
+}
+.logout-button p {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
